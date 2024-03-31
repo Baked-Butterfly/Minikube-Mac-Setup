@@ -246,9 +246,9 @@ NAME of the deployment , image should be the container image
       can get inside and check whats going on inside POD 
 
 # ** kubectl get deployment
-NAME         READY   UP-TO-DATE   AVAILABLE   AGE
-mongo-depl   1/1     1            1           8m26s
-nginx-depl   1/1     1            1           27m
+   NAME         READY   UP-TO-DATE   AVAILABLE   AGE
+   mongo-depl   1/1     1            1           8m26s
+   nginx-depl   1/1     1            1           27m
 
 
 # DELETE DEPLOYMENT
@@ -266,8 +266,7 @@ nginx-depl   1/1     1            1           27m
    deployment.apps "nginx-depl" deleted
 
 # All the CRUD operation happens only in deployment level
-
-# we can also use the other way to create deployments by using a YAML file 
+  we can also use the other way to create deployments by using a YAML file 
 
 # ** kubectl  apply -f appconfig.yaml 
 <img width="568" alt="image" src="https://github.com/Baked-Butterfly/Minikube-Mac-Setup/assets/165533701/065ff8ba-675d-4444-97d7-48b043b49a38">
